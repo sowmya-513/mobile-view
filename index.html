@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile first</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <i class="fab fa-2x fa-draft2digital"></i>
+            <a href="#home" class="active"></a>
+            <div  class="links" id = "myLinks">
+                <a href="#news">Product</a>
+                <a href="#contact">Service</a>
+                <a href="#about">Contact</a>
+            </div>
+            <div class="burger">
+                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                     <i class="fa fa-bars"></i>
+                </a>
+            </div>
+           
+        </div>
+        <h2>Mobile View First</h2>
+        
+        <div class="container">
+            
+            <div class="left sizes">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, at. Nostrum commodi, alias eveniet maxime suscipit nam ea inventore qui in quisquam veniam sunt fugit pariatur rerum? Assumenda quod, debitis, corporis ipsam quisquam maxime architecto nobis voluptatem numquam voluptatum vero?</div>
+            <div class="right sizes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sequi deserunt nemo excepturi voluptate nostrum quod? Mollitia eius consequuntur molestiae deleniti eligendi? Voluptates quis odio, incidunt exercitationem error ducimus veniam.</div>
+            
+        </div>
+    </header>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                 x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
