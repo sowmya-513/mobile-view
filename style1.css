@@ -64,7 +64,7 @@
         .navbar .links {
             background-color:  #333;
             display:inline-flex; 
-            padding-inline-start: 0%;
+            padding: 1%;
             color: white;
           
         }
