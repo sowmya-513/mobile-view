@@ -43,15 +43,12 @@
         font-size: 2.5rem;
         margin-top: 3.8px;
     }
-   .links{
-       padding:3% 7%;   
-       display:none;
-   }
+  
     @media(min-width:768px) {
         
         .navbar {
             background-color: #333;
-            padding: 0;
+            padding-right: 1%;
             font-weight: bold;
             font-size: 1.2rem;
             margin-right: 0;
@@ -64,12 +61,12 @@
             list-style-type: none;
             margin: 1rem;
         }
-        .links {
-            background-color: black;
-            margin: 0.5rem;
+        .navbar .links {
+            background-color:  #333;
+            display:inline-flex; 
+            padding-inline-start: 0%;
             color: white;
-            display: flex;
-            margin-right: auto;
+          
         }
 
         a {
@@ -78,7 +75,8 @@
             margin-right: auto;
             display: flex;
         }
-      
+    
+    
         .burger a.icon {
 
             visibility:hidden;
@@ -112,6 +110,12 @@
             top: 0;
             font-size: 2em;
         }
+    
+    
+    .links{
+        padding:3% 7%;   
+        display:none;
+    }
         .navbar a:hover {
             background-color: #ddd;
             color: black;
@@ -142,6 +146,12 @@
             top: 0;
             font-size: 2em;
         }
+    
+    .links{
+        padding:3% 7%;   
+        display:none;
+    }
+    
         .navbar a:hover {
             background-color: #ddd;
             color: black;
