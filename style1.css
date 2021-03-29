@@ -36,16 +36,15 @@
         text-align: center;
     }
     
-    .navbar .logo {
-       
+     .logo {
         float:right;
         margin: right;
         color: white;
         font-size: 2.5rem;
         margin-top: 3.8px;
     }
-   .navbar .links{
-       padding:3% 7%;
+   .links{
+       padding:3% 7%;   
        display:none;
    }
     @media(min-width:768px) {
@@ -66,7 +65,7 @@
             margin: 1rem;
         }
         .links {
-        
+            background-color: black;
             margin: 0.5rem;
             color: white;
             display: flex;
@@ -82,7 +81,7 @@
       
         .burger a.icon {
 
-            visibility:visible;
+            visibility:hidden;
            
         }
         .container {
