@@ -144,10 +144,11 @@
             position: absolute;
             left: 0;
             top: 0;
-            font-size: 2em;
+            font-size: 1.5em;
         }
     
     .links{
+       margin-top:1.5rem;
         padding:3% 7%;   
         display:none;
     }
