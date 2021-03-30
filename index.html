@@ -1,32 +1,32 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile first</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <header>
         <div class="navbar">
-           <div class = "logo"><i class="fab fa-css3"></i></div>
-           
-            <div  class="links" id = "myLinks">
-                <a href="#Product">Product</a>
-                <a href="#Service">Service</a>
-                <a href="#Contact">Contact</a>
-            </div>
+                                <div class ="logo">
+                                    <img src="data:image/png;base64,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" height="50" width="50"></div>
+                  <div  class="links" id = "myLinks">
+                        <a href="#">Product</a>
+                        <a href="#">Service</a>
+                        <a href="#">Contact</a>
+                   </div>
             <div class="burger">
-                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                 <a href="javascript:void(0);" class="icon" onclick="clickEvent()">
                      <i class="fa fa-bars"></i>
                 </a>
             </div>
            
         </div>
-        <h2>Mobile View First</h2>
+        <h2>Mobile First View</h2>
         
         <div class="container">
             
@@ -37,7 +37,7 @@
     </header>
 
     <script>
-        function myFunction() {
+        function clickEvent() {
             var x = document.getElementById("myLinks");
             if (x.style.display === "block") {
                  x.style.display = "none";
