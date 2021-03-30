@@ -153,8 +153,10 @@
         }
     
     .links{
-       margin-top:3rem;
-        padding:3% 7%;   
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-top: 3rem;
+        padding:0;   
         display:none;
     }
     
